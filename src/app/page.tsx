@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
-import React from 'react'
+import Link from 'next/link'
 
 const Home = () => {
   return (
     <div className="flex min-h-screen  items-center justify-center">
-
-      <Button>hi</Button>
+      Click Here
+      <Link href='/documents/123' className='underline '> Go to document</Link>
 
     </div>
   )
