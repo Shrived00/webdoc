@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+First to run 
+```bash
+npm install --legacy-peer-deps
+
+tiptap version @2.10.2
+
+```
+
+
 First, run the development server:
 
 ```bash
