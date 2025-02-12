@@ -15,6 +15,7 @@ import TextStyle from '@tiptap/extension-text-style'
 import Highlight from '@tiptap/extension-highlight'
 import Color from '@tiptap/extension-color'
 import Link from '@tiptap/extension-link'
+import TextAlign from '@tiptap/extension-text-align'
 
 
 
@@ -65,6 +66,11 @@ export const Editor = () => {
             Underline,
             FontFamily,
             TextStyle,
+            TextAlign.configure({
+                types: ['heading', 'paragraph', 'blockquote', 'codeBlock', 'listItem', 'taskItem', 'tableCell', 'tableHeader', 'tableRow']
+            }),
+
+            //only heading and paragraph
             Color,
             Link.configure({
                 openOnClick: false,
