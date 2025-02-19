@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { DocumentInput } from "./document-input"
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger } from "@/components/ui/menubar"
-import { BoldIcon, EditIcon, FileIcon, FileJson, FilePenIcon, FilePlusIcon, FileTextIcon, GlobeLockIcon, ItalicIcon, PrinterIcon, Redo2Icon, RemoveFormattingIcon, StrikethroughIcon, TextIcon, TrashIcon, UnderlineIcon, Undo2Icon } from "lucide-react"
+import { BoldIcon, FileIcon, FileJson, FilePenIcon, FilePlusIcon, FileTextIcon, GlobeLockIcon, ItalicIcon, PrinterIcon, Redo2Icon, RemoveFormattingIcon, StrikethroughIcon, TextIcon, TrashIcon, UnderlineIcon, Undo2Icon } from "lucide-react"
 import { BsFilePdf } from "react-icons/bs"
 import { useEditorStore } from "@/store/use-editor-store"
 
