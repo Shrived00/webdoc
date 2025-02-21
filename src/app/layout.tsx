@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Inter } from "next/font/google"
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { NuqsAdapter } from 'nuqs/adapters/next/app'
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+import { ConvexClientProvider } from "@/components/ConvexClientProvider";
 
 const inter = Inter({
   subsets: ["latin"],
-})
-
-
-
+});
 
 export const metadata: Metadata = {
   title: "Web Docs",
@@ -23,11 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={inter.className}
-      >
+      <body className={inter.className}>
         <NuqsAdapter>
-          {children}
+          <ConvexClientProvider>{children}</ConvexClientProvider>
         </NuqsAdapter>
       </body>
     </html>

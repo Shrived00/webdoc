@@ -15,9 +15,10 @@ export default function TemplatesGallery() {
   const isCreating = false;
 
   return (
-    <div className=" bg-[#F1F3F4] ">
+    <div className=" bg-[#F1F3F4] py-3">
       <div className="max-w-screen-xl mx-auto px-16 flex flex-col gap-y-4">
         {/* Your content here */}
+        Start a New Document
         <h3 className="font-medium">
           <Carousel>
             <CarouselContent className="-ml-4">
