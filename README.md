@@ -2,11 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First to run 
+First to run
 ```bash
 npm install --legacy-peer-deps
+<!-- legacy peer deps  bcuz  of react 19  -->
 
 tiptap version @2.10.2
+
+convex version @1.17.3
+
+nuqs version @2.2.3
 
 ```
 
