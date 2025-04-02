@@ -7,6 +7,10 @@ First to run
 npm install --legacy-peer-deps
 <!-- legacy peer deps  bcuz  of react 19  -->
 
+
+
+
+
 tiptap version @2.10.2
 
 convex version @1.17.3
@@ -19,7 +23,7 @@ nuqs version @2.2.3
 First, run the development server:
 
 ```bash
-npm run dev
+npm run dev && npx convex dev
 # or
 yarn dev
 # or
